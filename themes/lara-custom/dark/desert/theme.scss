@@ -1,0 +1,27 @@
+// zug custom theme
+/* SCSS HEX */
+$vermilion: #ec4938ff;
+$sandy-brown: #fea153ff;
+$coral: #f28d67ff;
+$tekhelet: #542073ff;
+$dark-purple: #281524ff;
+$licorice: #1b0e18ff;
+
+
+$primaryColor: $coral !default;
+$primaryLightColor: #F49C7C !default;
+$primaryLighterColor: #F6AA8E !default;
+$primaryLightestColor: rgba(240, 113, 66, 0.2) !default;
+$primaryTextColor: #030712 !default;
+
+$secondaryButtonColor: $tekhelet;
+$secondaryButtonTextColor: #94a3b8;
+
+$highlightBg:rgba(240, 113, 66, 0.16) !default;
+$highlightTextColor: rgba(255,255,255,.87) !default;
+$highlightFocusBg: rgba($primaryColor, .24) !default;
+
+@import '../_variables';
+@import './_fonts';
+@import '../../../../theme-base/_components';
+@import '../_extensions';
