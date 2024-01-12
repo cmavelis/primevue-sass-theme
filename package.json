@@ -25,5 +25,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/primefaces/primevue-sass-theme/issues"
+  },
+  "devDependencies": {
+    "sass": "^1.69.7"
   }
 }
