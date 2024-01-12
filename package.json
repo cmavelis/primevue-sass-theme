@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/primefaces/primevue-sass-theme.git"
   },
+  "scripts": {
+    "build": "sass --update themes/lara-custom/dark/desert/theme.scss:../simulchess-vue/src/assets/theme/theme.css"
+  },
   "keywords": [
     "primevue",
     "vue",
